@@ -1,0 +1,336 @@
+@media (max-width: 1170px){
+/*Section "ABOUT"*/
+    .about__item{
+        display: block;
+    }
+    .about__content {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .about__content-text{
+        display: block;
+    }
+    .about__content-text p{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .about__img{
+        margin-bottom: 50px;
+    }
+    .about{
+        text-align: center;
+    }
+    .about__table{
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 1060px){
+/*First Screen*/
+    .login{
+        margin-right: 0;
+    }
+/*Section "reservation"*/
+    .reservation__inner{
+        display: block;
+    }
+    .reservation__text{
+        width: 80%;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+/*Section "INFO"*/
+    .special-offer__inner{
+        display: block;
+    }
+    .special-offer__item{
+        max-width: 100%;
+    }
+    .special-offer__btn{
+        margin-bottom: 20px;
+    }
+/*Section "Contacts"*/
+    .contacts__inner{
+        display: block;
+    }
+    .contacts__box{
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .contacts__guarantees{
+        
+        margin: 0 auto;
+    }
+}
+@media (max-width: 940px){
+/*First Screen*/
+    .header__top{
+        padding-top: 30px;
+    }
+    .menu-btn{
+        display: block;
+    }
+    .menu__list{
+        transform: translateY(-100%);
+        transition: all .5s;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #010203;
+        padding-top: 90px;
+        padding-bottom: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    .menu__list.active{
+        transform: translateY(0);
+    }
+    .menu__item{
+        padding: 15px 0;
+    }
+    .menu__link{
+        display: block;
+    }
+    .phone,
+    .login{
+        position: relative;
+        z-index: 20;
+    }
+    .header__content{
+        margin: 0 auto;
+    }
+    .header__description{
+        justify-content: center;
+    }
+    .header{
+        background-position: center right;
+    }
+/*Section "INFO"*/
+    .services{
+        padding-bottom: 50px;
+    }
+    .services__inner{
+        display: block;
+    }
+    .services__box-list{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 170px;
+    }
+    .services__buttons{
+        margin: 0 auto;
+    }
+    .slick-slide img{
+        max-width: 100%;
+    }
+    
+    .slider__description{
+        font-size: 18px;
+        line-height: 24px;
+        padding-bottom: 50px;
+    }
+
+}
+@media (max-width: 840px){
+    .how-to__box svg{
+        display: none;
+    }
+    .how-to__box-list{
+        display: block;
+        list-style: none;
+    }
+    .how-to__box-item{
+        padding-bottom: 40px;
+        text-align: left;
+        padding-left: 20px;
+        margin-left: 20px;
+        position: relative;
+        border-left: 1px solid #fff;
+    }
+    .how-to__box-item:last-child{
+        border-left: none;
+    }
+    .how-to__box-item::before{
+        content: '';
+        position: absolute;
+        left: -10px;
+        top: 0;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: #fff;
+    }
+/**/
+    .slider__inner{
+        padding: 0;
+    }
+}
+@media (max-width: 756px){
+    .about__content {
+        max-width: 95%;
+    }
+/*Section "reservation"*/
+    .reservation {
+        background-position: top left;
+    }
+}
+@media (max-width: 640px){
+
+/*First Screen*/
+    .header__title{
+        font-size: 36px;
+        line-height: 30px;
+    }
+    .header__title span{
+        font-size: 60px;
+    }
+    .header__content{
+        text-align: center;
+    }
+    .header__text{
+        justify-content: center;
+        font-size: 18px;
+    }
+    .header__text p{
+        padding: 0 10px;
+    }
+    .header__btn{
+        font-size: 18px;
+        line-height: 24px;
+        min-width: 60%;
+    }
+    .header__description{
+        display: block;
+    }
+    .header__description-text{
+        text-align: center;
+        width: 100%;
+    }
+    .header__description-text + .header__description-text{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .services__title{
+        font-size: 34px;
+    }
+
+    /*Section "ABOUT"*/
+    .title{
+        padding: 50px 0;
+        font-size: 38px;
+        line-height: 38px;
+    }
+    .about__item{
+        padding-bottom: 50px;
+    }
+    .about__table-tr:first-child{
+        display: none;
+    }
+    .about__table-td span{
+        display: inline-block;   
+    }
+    .about__table-td{
+        display: block;
+        text-align: right;
+        border-bottom: 1px solid #fff;
+    }
+    .about__table-td:last-child{
+        border: none;
+    }
+    .about__table-td::before{
+        content: attr(aria-label);
+        float: left;
+    }
+    .about__table-tr + .about__table-tr{
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 400;
+    }
+    /*Footer*/
+    .footer{
+        text-align: center;
+    }
+    .footer__inner{
+        display: block;
+    }
+    .footer__text{
+        width: 100%;
+        margin-right: 0;
+    }
+    .footer__text p + p{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .footer__menu{
+        margin-bottom: 50px;
+    }
+    .footer__menu,
+    .footer__links{
+        margin-right: 0;
+        width: 100%;
+    }
+
+}
+@media (max-width: 480px){
+    .title{
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .reservation__title,
+    .services__title{
+        font-size: 22px;
+    }
+    .special-offer__new-price{
+        font-size: 34px;
+        line-height: 44px;
+    }
+    .services__box-list{
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .special-offer__item-box{
+        padding: 20px 10px;
+    }
+    .contacts__guarantees-img{
+        width: 100%;
+    }
+    .contacts__guarantees-text{
+        font-size: 20px;
+    }
+}
+@media (max-width: 375px){
+ /*First Screen*/
+ 
+    .header__top{
+        flex-wrap: wrap;
+    }
+    .phone{
+        width: 100%;
+        margin-right: auto;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .menu,
+    .login{
+        order: -1;
+    }
+    .menu__list{
+        padding-top: 120px;
+    }
+    .header__title{
+        font-size: 26px;
+    }
+    .header__title span{
+        font-size: 48px;
+    }
+    .header__btn{
+        width: 100%;
+        font-size: 16px;
+    }
+
+}
